@@ -1,4 +1,4 @@
-FROM node:8.6 as build
+FROM node:latest as build
 WORKDIR /server
 COPY package.json /server/
 RUN npm install
